@@ -1,0 +1,83 @@
+body{
+    margin: 0 0 0 0;
+    display: flex;
+    background-color: rgb(74, 74, 74);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+    .left{
+        height: 720px;
+        width: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 5px 5px 5px 5px;
+    }
+    .stick{
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .kv{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .iconi{
+        height: 50px;
+        width: 50px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 5px;
+    }
+    .center{
+        margin: 0 7px 0 7px;
+        height: 720px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-top: 5px;
+    }
+    .text1{
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        margin: 5px 0 5px 0;
+    }
+    .app{
+        padding-left: 5px;
+        text-align: left;
+        font-size: 25px;
+        color: white;
+        font-weight: 600;
+        height: 50px;
+        width: 480px;
+        border: 2px solid black;
+        transition: 0.5s;
+        border-radius: 5px;
+    }
+    .app:hover{
+        background-color: rgb(255, 0, 230);
+    }
+    .right{
+        height: 712px;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 5px 5px 5px;
+        gap: 0px 10px;
+    }
+    .text2{
+        width: 500px;
+        text-align:left;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    .square{
+        width: 30%;
+        height: 20%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+    }
